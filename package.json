@@ -1,0 +1,20 @@
+{
+  "name": "gambit",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A chess engine you can play in the browser: perft-verified legal move generation, alpha-beta search, and a click-to-play board.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6",
+    "vitest": "2.1.8"
+  }
+}
